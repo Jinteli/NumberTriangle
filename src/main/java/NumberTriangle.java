@@ -1,5 +1,6 @@
 import java.io.*;
 import java.util.*;
+
 /**
  * This is the provided NumberTriangle class to be used in this coding task.
  *
@@ -145,7 +146,7 @@ public class NumberTriangle {
                 top = currentRow.get(0);
             }
             prevRow = currentRow;
-            //read the next line
+
             line = br.readLine();
         }
         br.close();
